@@ -15,14 +15,14 @@ Pollucapt est un project qui consite en l'affichage de la pollution (O3) sur une
     POLLUCAPT
     <br/>
     <br/>
-    <a href="https://readme.shaankhan.dev"><strong>View Demo »</strong></a>
+    <a href="https:pollucapt.alwaysdata.net"><strong>Aller vers le site »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/ShaanCoding/ReadME-Generator">Explore the docs</a>
+    <a href="https://github.com/maxoulamenace/pollucapt">Github</a>
     .
-    <a href="https://github.com/ShaanCoding/ReadME-Generator/issues">Report Bug</a>
+    <a href="pollucapt.alwaysdata.net">Site internet</a>
     .
-    <a href="https://github.com/ShaanCoding/ReadME-Generator/issues">Request Feature</a>
+    <a href="https://github.com/ShaanCoding/ReadME-Generator/issues">je ne sait pas encore</a>
   </p>
 </p>
 
