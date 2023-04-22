@@ -30,12 +30,12 @@ Pollucapt est un project qui consite en l'affichage de la pollution (O3) sur une
 
 ## Table Des Matières
 
-- [Table Des Matières](#Table Des Matières)
-- [Le Project](#Le Project)
-- [Processus](#getting-started)
-  - [Matériel](#prerequisites)
-  - [Programation](#installation)
-- [Utilisation](#usage)
+- [Table Des Matières](#table-des-matières)
+- [Le Project](#le-project)
+- [Processus](#processus)
+  - [Matériel](#materiel)
+  - [Programation](#programation)
+- [Utilisation](#utilisation)
 
 ## Le Project
 
@@ -43,70 +43,27 @@ Pollucapt est un project qui consite en l'affichage de la pollution (O3) sur une
 
 Pollucapt' est une start-up qui a l'aide d'un petit appareille a attacher sur votre vélo vas mesurer un taux de pollution et le reportera automatiquement sur une carte mise a jour avec les résultat des autre utilisateurs. En utilisant l'appareil, les cyclistes peuvent aider à mapper la pollution atmosphérique dans leur ville. Les données collectées sont ensuite envoyées à un serveur, où elles sont analysées et mises en ligne sur une carte interactive. La pollution atmosphérique est un problème important dans de nombreuses villes, et cette start-up Pollucapt aide les gens à mieux comprendre où se trouve la pollution et comment elle se propage. En fournissant des données en temps réel, Pollucapt permet aux utilisateur de choisir des itinéraire plus sain. Pollucapt est un outil important pour sensibiliser les gens à la pollution atmosphérique, et à la manière dont elle peut affecter leur santé. Cela les aide à prendre des mesures pour éviter les zones les plus polluées, et à mieux protéger leur santé. En se basant sur les données collectées par les appareils Pollucapt, les scientifiques peuvent mieux comprendre comment la pollution se propage, et trouver de nouvelles manières de la combattre. Les données collectées par les appareils Pollucapt sont utiles non seulement aux utilisateurs, mais aussi aux scientifiques et aux chercheurs. Les données collectées par les appareils Pollucapt sont un outil précieux dans la lutte contre la pollution atmosphérique. Le produit est donc, mis sur le marché et a un certain succès auprès de la population. La jeune start-up avec succès, attire l'attention d'investisseurs et réussi à lever des fonds pour se développer. La start-up Pollucapt connait donc une croissance rapide et se développe dans plusieurs villes à travers le monde.
 
-## Built With
+## Processus
 
-Whilst I was the main developer of this project, this project couldn't of even started without the help of these open source projects, special thanks to:
+Définir les exigences du projet : la première étape consiste à définir les objectifs du projet, les données que vous souhaitez collecter et les fonctionnalités que vous souhaitez inclure dans votre solution. Concevoir le schéma électronique : une fois que vous avez défini les exigences du projet, vous pouvez concevoir un schéma électronique pour votre solution. Cela implique de sélectionner les composants appropriés, de les connecter entre eux et de les interfacer avec le microcontrôleur Arduino. Construire le circuit : une fois que vous avez conçu le schéma électronique, vous pouvez construire le circuit en connectant les différents composants ensemble en suivant le schéma électronique. Programmer l'Arduino : une fois que le circuit est construit, vous pouvez programmer l'Arduino en utilisant un langage de programmation tel que C++. Vous pouvez utiliser une variété de bibliothèques pour interagir avec les différents composants du circuit et collecter les données souhaitées. Tester et déboguer : une fois que le code est écrit, vous pouvez tester votre solution en la connectant à un ordinateur et en simulant différentes conditions. Vous pouvez également tester la solution sur le terrain pour vous assurer qu'elle fonctionne correctement. Intégrer les données à une carte en ligne : enfin, vous pouvez intégrer les données collectées à une carte en ligne en utilisant une plateforme de cartographie telle que Google Maps ou OpenStreetMap. Cela permettra aux utilisateurs d'afficher les données collectées et de les utiliser pour surveiller la qualité de l'air dans différentes zones géographiques. Ces étapes sont générales et peuvent varier en fonction des spécificités du projet.
 
-* [JavaScript](https://www.javascript.com/)
-* [VueJS](https://vuejs.org/)
-
-## Getting Started
+### Materiel
 
 
+L'Arduino MKR1010 WiFi est un microcontrôleur compact et puissant qui prend en charge la connectivité WiFi, ce qui permet de transmettre facilement les données collectées à un serveur distant pour le stockage et l'analyse. Le capteur d'ozone est un capteur couramment utilisé pour mesurer la concentration d'ozone dans l'air. Il est très sensible à l'ozone et est capable de mesurer des concentrations de gaz aussi faibles que 10 ppb. Le capteur de température est un composant couramment utilisé pour mesurer la température ambiante. Les variations de température peuvent avoir un impact significatif sur la qualité de l'air et il est donc important de mesurer cette variable. La balise GPS est utilisée pour enregistrer la position géographique de l'appareil. Cela permet de suivre la trajectoire de l'appareil lorsqu'il se déplace et de cartographier les données collectées en fonction de leur position géographique. Le bouton d'allumage et les LED indicatrices peuvent aider à contrôler et à surveiller l'état de l'appareil. Le bouton peut être utilisé pour allumer et éteindre l'appareil, tandis que les LED peuvent être utilisées pour indiquer l'état de l'appareil, comme si les capteurs fonctionnent correctement ou si les données sont en cours de transmission. Ces composants ont été choisis pour leur compatibilité avec le microcontrôleur Arduino, leur capacité à collecter des données pertinentes pour surveiller la qualité de l'air et les conditions environnementales, ainsi que pour leur faible coût
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+### Programation
 
-### Prerequisites
+Disponible dans les fichiers au dessu
 
-This program has no pre-requisites
+## Utilisation
 
-### Installation
-
-1. Clone the repo
+1. Copier le project
 
 ```sh
-git clone https://github.com/ShaanCoding/ReadME-Generator.git
+git clone https://github.com/https://github.com/maxoulamenace/pollucapt.git
 ```
 
-2. Open The index.HTML file
+2. Extraire les fichier
 
-3. Have fun!
-
-## Usage
-
-Coming Soon!
-
-## Roadmap
-
-See the [open issues](https://github.com/ShaanCoding/ReadME-Generator/issues) for a list of proposed features (and known issues).
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/ShaanCoding/ReadME-Generator/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
-* Please make sure you check your spelling and grammar.
-* Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/ShaanCoding/ReadME-Generator/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
-
-### Creating A Pull Request
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the MPL-2.0 License. See [LICENSE](https://github.com/ShaanCoding/ReadME-Generator/blob/main/LICENSE.md) for more information.
-
-## Authors
-
-* **Shaan Khan** - *Comp Sci Student* - [Shaan Khan](https://github.com/ShaanCoding/) - *All Work*
-
-## Acknowledgements
-
-* [ShaanCoding](https://github.com/ShaanCoding/)
-* [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-* [ImgShields](https://shields.io/)
+3. Construire le project et téléverser le code et balladez-vous
