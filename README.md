@@ -26,7 +26,6 @@ Pollucapt est un project qui consite en l'affichage de la pollution (O3) sur une
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/maxoulamenace/pollucapt/total) ![Contributors](https://img.shields.io/github/contributors/maxoulamenace/pollucapt?color=dark-green) ![Issues](https://img.shields.io/github/issues/maxoulamenace/pollucapt) ![License](https://img.shields.io/github/license/maxoulamenace/pollucapt) [![Discord](https://img.shields.io/discord/1031978384575709195)](https://discord.gg/qfE7XqJ)
 
 ## Table Des Matières
 
