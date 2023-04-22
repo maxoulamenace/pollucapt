@@ -28,37 +28,20 @@ Pollucapt est un project qui consite en l'affichage de la pollution (O3) sur une
 
 ![Downloads](https://img.shields.io/github/downloads/maxoulamenace/pollucapt/total) ![Contributors](https://img.shields.io/github/contributors/maxoulamenace/pollucapt?color=dark-green) ![Issues](https://img.shields.io/github/issues/maxoulamenace/pollucapt) ![License](https://img.shields.io/github/license/maxoulamenace/pollucapt) [![Discord](https://img.shields.io/discord/1031978384575709195)](https://discord.gg/qfE7XqJ)
 
-## Table Of Contents
+## Table Des Matières
 
-- [Table Of Contents](#table-of-contents)
-- [About The Project](#about-the-project)
-- [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-  - [Creating A Pull Request](#creating-a-pull-request)
-- [License](#license)
-- [Authors](#authors)
-- [Acknowledgements](#acknowledgements)
+- [Table Des Matières](#Table Des Matières)
+- [Le Project](#Le Project)
+- [Processus](#getting-started)
+  - [Matériel](#prerequisites)
+  - [Programation](#installation)
+- [Utilisation](#usage)
 
-## About The Project
+## Le Project
 
-![Screen Shot](images/screenshot.png)
+![Screen Shot](image/)
 
-There are many great ReadME templates available on GitHub, however, I struggled to find any ReadME generators. Throughout my open source project contributions, I've had to spend numerous hours editing README files which I could've spent developing instead. This paired with me often forgetting to change links, titles and sections made me look for a README generator.
-
-Whilst alternative options existed, I struggled to find one that could suit my needs whilst being fast and easy to use, the ones I found were command-line based, only taking a limited input with the inability to go back on, as such I've built this, a README Generator!
-
-With this open-source project, I hope to allow you to save as much time as it saved me, the benefits of this project are huge and here's why:
-
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. Whilst this template has served my needs, it may not serve yours so I'll be continuing to work on this to make a more "Universal" and "Flexible" ReadME Generator in the future. Feel free to suggest changes by opening a new issue, or if you want to implement your own, feel free to fork this repo and create a pull request.
+Pollucapt' est une start-up qui a l'aide d'un petit appareille a attacher sur votre vélo vas mesurer un taux de pollution et le reportera automatiquement sur une carte mise a jour avec les résultat des autre utilisateurs. En utilisant l'appareil, les cyclistes peuvent aider à mapper la pollution atmosphérique dans leur ville. Les données collectées sont ensuite envoyées à un serveur, où elles sont analysées et mises en ligne sur une carte interactive. La pollution atmosphérique est un problème important dans de nombreuses villes, et cette start-up Pollucapt aide les gens à mieux comprendre où se trouve la pollution et comment elle se propage. En fournissant des données en temps réel, Pollucapt permet aux utilisateur de choisir des itinéraire plus sain. Pollucapt est un outil important pour sensibiliser les gens à la pollution atmosphérique, et à la manière dont elle peut affecter leur santé. Cela les aide à prendre des mesures pour éviter les zones les plus polluées, et à mieux protéger leur santé. En se basant sur les données collectées par les appareils Pollucapt, les scientifiques peuvent mieux comprendre comment la pollution se propage, et trouver de nouvelles manières de la combattre. Les données collectées par les appareils Pollucapt sont utiles non seulement aux utilisateurs, mais aussi aux scientifiques et aux chercheurs. Les données collectées par les appareils Pollucapt sont un outil précieux dans la lutte contre la pollution atmosphérique. Le produit est donc, mis sur le marché et a un certain succès auprès de la population. La jeune start-up avec succès, attire l'attention d'investisseurs et réussi à lever des fonds pour se développer. La start-up Pollucapt connait donc une croissance rapide et se développe dans plusieurs villes à travers le monde.
 
 ## Built With
 
