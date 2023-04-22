@@ -1,0 +1,453 @@
+/* -------------------------Menu------------------------- */
+
+*#sommaire {
+  font-family: "Raleway";
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  text-decoration:none;
+
+}
+
+*#menu {
+  font-family: "Raleway";
+  box-sizing: border-box;
+  color: white;
+  text-decoration:none;
+
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #303030;
+  color: #FFF;
+  height: 50px;
+  padding: 1em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li {
+  margin: 0 1rem;
+  overflow: hidden;
+  color: white;
+}
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+@media (max-width: 700px) {
+  .menu-button-container {
+    display: flex;
+  }
+  h3{
+	  font-size: 50px;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #333;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #222;
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+}
+
+/* -------------------------Titre-------------------------*/
+
+
+h2 {
+  text-align: left;
+  margin-left: 10%;
+  font-size: 45px;
+}
+h1 {
+  vertical-align: center;
+  text-align: center;
+  color: white;
+  
+}
+
+h3 {
+  margin: 0% 5%;
+  text-align: left;
+  color: white;
+  font-size: 80px;
+  
+}
+
+h4 {
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 45px;
+  color: #181818;
+}
+
+h5 {
+  font-family: cursive;
+  text-align: left;
+  margin: 0% 0% 0% 5%;
+  font-size: 45px;
+  color: #0085fa;
+  font-weight: 100	
+}
+
+h6 {
+  font-family: cursive;
+  text-align: center;
+  margin: 0% 0% 3% 0%;
+  font-size: 45px;
+  color: #0085fa;
+  font-weight: 100	
+}
+
+h7 {
+  font-family: cursive;
+  text-align: left;
+  margin: 0% 0% 0% 5%;
+  font-size: 45px;
+  color: #0085fa;
+  font-weight: 100	
+}
+
+/* -------------------------Div------------------------- */
+
+div#presentation {
+  background-image: url("imagedefond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  margin: 0% 0% 0% 0%;
+}
+
+div#presentation {
+  height: 80%;
+  width: 100%;
+  margin: 0% 0% 0% 0%;
+}
+
+div#qui {
+  margin-right: 0 0 0 0;
+  text-align: left;
+  color: #DFDFDF;
+}
+
+div#description {
+  margin-right: 0 0 0 0;
+  text-align: left;
+  background-color: #F7F7F7;
+  font-size: 20px;
+}
+
+div#sommaire {
+  width: 100%;
+}
+
+div#tire-obj {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+div#materiel {
+  float: left;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+
+}
+
+div#resultat {
+  float: left;
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+}
+
+div#construction {
+  float: right;
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+
+div#programation {
+  float: right;
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+div#ou {
+  float: right;
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+div#oucarte {
+  float: right;
+  position: relative;
+  margin: 0% 3% 3% -4%;
+  height: 20%;
+
+}
+
+div#objectif {
+  float: left;
+  background-color: rgb(255, 255, 255);
+  width: 20%;
+}
+
+
+div#column1 {
+  background-color: #ffffff;
+  float: left;
+  width: 50%;
+  border-right: 2px solid #3f3f3f;
+}
+div#column2 {
+  background-color: #ffffff;
+  float: left;
+  width: 40%;
+}
+
+/* -------------------------Image-------------------------*/
+
+img#materiel {
+  float: right;
+  position: relative;
+  margin: 0% 3% 3% 0%;
+  height: 20%;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+img#resultat {
+  float: right;
+  position: relative;
+  margin: 0% 3% 3% 0%;
+  height: 20%;
+
+}
+
+img#construction {
+  float: left;
+  position: relative;
+  margin: 0% 3% 3% 2%;
+  height: 20%;
+  border-radius: 20%;
+
+}
+
+img#programation {
+  float: left;
+  position: relative;
+  margin: 0% 3% 3% 2%;
+  height: 20%;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+}
+
+img#programation-text {
+  float: right;
+  position: relative;
+  margin: 0% 3% 3% 3%;
+  height: 20%;
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+
+}
+
+img#shema {
+  object-fit: none;
+  float: right;
+  position: relative;
+  margin-top: 15%;
+  height: 50%;
+  width: 50%;
+
+}
+
+img#achat {
+margin-left: 5%;
+
+  }
+
+/* -------------------------Paragraphe------------------------- */
+
+p#materiel {
+  margin: 2% 5% 2% 5%;
+  color: #2d2d2d;
+  display:inline-block;
+  vertical-align: top;
+  font-size: 17px;
+  font-family: cursive;
+}
+
+p#resultat {
+  margin: 2% 5% 2% 5%;
+  color: #2d2d2d;
+  display:inline-block;
+  vertical-align: top;
+  font-size: 17px;
+  font-family: cursive;
+}
+
+p#construction {
+  margin: 2% 5% 2% 0%;
+  color: #2d2d2d;
+  display:inline-block;
+  vertical-align: top;
+  font-size: 17px;
+  font-family: cursive;
+}
+
+p#programation {
+  margin: 2% 5% 2% 0%;
+  color: #2d2d2d;
+  display:inline-block;
+  vertical-align: top;
+  font-size: 17px;
+  font-family: cursive;
+}
+
+p#qui {
+  margin: 2% 10% 2% 10%;
+  font-size: 20px;
+  
+}
+
+p#achat {
+  margin: 2% 5% 2% 5%;
+  color: #181818;
+  display:inline-block;
+  vertical-align: top;
+  font-size: 30px;
+  
+}
+
+p#sommaire {
+  margin: 2% 5% 2% 15%;
+  color: #181818;
+  display:inline-block;
+  vertical-align: top;
+  font-size: 30px;
+  
+}
+
+p#ou {
+  margin: 2% 5% 2% 5%;
+  position: static;
+  color: #2d2d2d;
+  display:inline-block;
+  vertical-align: top;
+  font-size: 17px;
+  font-family: cursive;
+  width: 60%;
+}
+
+/* -------------------------Corp------------------------- */
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #585858;
+}
+
+body#projet {
+  margin: 0;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+/* -------------------------List------------------------- */
+
+ol.objectif {
+  list-style-type: circle;
+}

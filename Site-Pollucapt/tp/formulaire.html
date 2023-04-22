@@ -1,0 +1,71 @@
+<html>
+  <style type="text/css">
+  	body {
+    margin: 0;
+    padding: 0;
+    font-family:arial;
+    
+    }
+    .box {
+      position: relative;
+      top: 5%;
+      left: 5%;
+    }
+
+    .box select {	
+      background-color: #8ab8de;
+      color: white;
+      padding: 20px;
+      width: 250px;
+      border: none;
+      font-size: 20px;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+      -webkit-appearance: button;
+      appearance: button;
+      outline: none;
+    }
+    	
+
+    .box input  {	
+      background-color: #8ab8de;
+      color: white;
+      padding: 20px;
+      width: 250px;
+      border: none;
+      font-size: 20px;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+      -webkit-appearance: button;
+      appearance: button;
+      outline: none;
+      margin-bottom:5%;
+    }
+    .box select option {
+      padding: 20px;
+    }
+
+    .box p {
+    	font-size: 20px;
+    	padding: 0;
+    	margin:0;
+    }
+  </style>
+
+	<div class="box">
+		<form action="ajoute_eleve.php"> 
+			<p>Saisissez votre nom : </p>
+			<br>
+			<INPUT type=text size=20 name="nom">
+			<br>
+			<p>Saisissez votre prenom : </p>
+			<br>
+			<INPUT type=text size=20 name="prenom">
+			<br>
+      <p>Saisissez votre Age : </p>
+			<br>
+			<INPUT type=int size=2 name="age">
+      </br>
+			<input type="submit" name="Enregistrer" value="ENREGISTRER"/> 
+		</form>
+		
+	</div>
+</html>
